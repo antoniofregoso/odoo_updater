@@ -9,7 +9,7 @@ log_file="update_odoo.log"
 timestamp() {
 date +"%Y-%m-%d %H:%M:%S"
 }
-#repos
+#repos Add here the repos you want to update
 repos=(
     "odoo"
     "web"
